@@ -129,6 +129,15 @@ nav .container {
   color: var(--primary);
   text-decoration: none;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
 }
 
 .nav-logo span {
